@@ -1,0 +1,1215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+        integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Satisfy&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.0/font/bootstrap-icons.min.css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" />
+
+    <!-- https://arid-html.vercel.app/main-file/dist/index.html   -->
+
+    <title>Trip</title>
+</head>
+
+<body>
+
+    <header class="header-style sticky">
+        <div class="container-fluid">
+            <div class="main-header">
+                <div class="row align-items-center">
+                    <div class="col-lg-2 col-12">
+                        <div class="booktrip-btn">
+                            <a href="#">Book A Trip <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M7.42505 16.5999L12.8584 11.1666C13.5 10.5249 13.5 9.4749 12.8584 8.83324L7.42505 3.3999"
+                                        stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10"
+                                        stroke-linecap="round" stroke-linejoin="round"></path>
+                                </svg></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-8 col-12">
+                        <div class="menu">
+                            <nav class="header-nav">
+                                <ul class="d-flex justify-content-center align-items-center">
+                                    <li>
+                                        <a href="">HOME</a>
+                                    </li>
+                                    <li>
+                                        <a href="">PAGES</a>
+                                    </li>
+                                    <li>
+                                        <a href="">DESTINATION</a>
+                                    </li>
+                                    <li>
+                                        <a href=""><img src="images/logo.png" alt=""></a>
+                                    </li>
+                                    <li>
+                                        <a href="">BLOGS</a>
+                                    </li>
+                                    <li>
+                                        <a href="">PAKAGES</a>
+                                    </li>
+                                    <li>
+                                        <a href="">CONTACT</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 d-flex justify-content-end">
+                        <div class="cart">
+                            <div class="user-icon">
+                                <i class="fa-regular fa-user"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <section class="travel-category">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 justify-content-center">
+                    <div class="travel-category-content">
+                        <h5>Travel Category</h5>
+                        <h2>Our Popular Tours Type</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="tour-types mt-5">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div class="category-steaker">
+                            <div class="category-img">
+                                <img src="images/c1.png" alt="">
+                            </div>
+                            <div class="category-content">
+                                <h2>Adventure Tour</h2>
+                                <h4>10 Tours+</h4>
+                                <p>Lorem ipsum dolor sit amet, conse ctetur adipiscing elit.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="category-steaker">
+                            <div class="category-img">
+                                <img src="images/c2.png" alt="">
+                            </div>
+                            <div class="category-content">
+                                <h2>Cruises Tour</h2>
+                                <h4>10 Tours+</h4>
+                                <p>Lorem ipsum dolor sit amet, conse ctetur adipiscing elit.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="category-steaker">
+                            <div class="category-img">
+                                <img src="images/c3.png" alt="">
+                            </div>
+                            <div class="category-content">
+                                <h2>Hiking TourTour</h2>
+                                <h4>10 Tours+</h4>
+                                <p>Lorem ipsum dolor sit amet, conse ctetur adipiscing elit.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="category-steaker">
+                            <div class="category-img">
+                                <img src="images/c4.png" alt="">
+                            </div>
+                            <div class="category-content">
+                                <h2>Honeymoon Tour</h2>
+                                <h4>10 Tours+</h4>
+                                <p>Lorem ipsum dolor sit amet, conse ctetur adipiscing elit.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="explore-our-tour">
+        <div class="container">
+            <div class="explore">
+                <div class="travel-category-content">
+                    <h5>Ecplore Our Tours</h5>
+                    <h2>Browse New & Most Popular Tours</h2>
+                </div>
+            </div>
+            <div class="posters">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="explore-poster">
+                            <div class="poster-img">
+                                <a href="#"><img src="images/poster-1.png" alt="" class="w-100"></a>
+                            </div>
+                            <div class="poster-content pt-3 pb-3">
+
+                                <h2>Cusco & Salkantay Trekking to Machu Picchu</h2>
+
+                                <div class="content-strip">
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item">
+                                            <span class="text-primary">
+                                                <i class="bi bi-people"></i>
+                                            </span>
+                                            <span>05 People</span>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <span class="text-primary">
+                                                <i class="bi bi-clock"></i>
+                                            </span>
+                                            <span>03 Days</span>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <span class="text-primary">
+                                                <i class="bi bi-coin"></i>
+                                            </span>
+                                            <span>From <span class="text-danger font-weight-bold">$250</span></span>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="link d-flex align-items-center">
+                                    <a href="#">Explore Now</a><span><i
+                                            class="fa-solid fa-arrow-right-long ms-2"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="explore-poster">
+                            <div class="poster-img">
+                                <a href="#"><img src="images/poster-2.png" alt="" class="w-100"></a>
+                            </div>
+                            <div class="poster-content pt-3 pb-3">
+
+                                <h2>Casablanca Valley Wine Tasting Days</h2>
+
+                                <div class="content-strip">
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item">
+                                            <span class="text-primary">
+                                                <i class="bi bi-people"></i>
+                                            </span>
+                                            <span>05 People</span>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <span class="text-primary">
+                                                <i class="bi bi-clock"></i>
+                                            </span>
+                                            <span>03 Days</span>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <span class="text-primary">
+                                                <i class="bi bi-coin"></i>
+                                            </span>
+                                            <span>From <span class="text-danger font-weight-bold">$250</span></span>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="link d-flex align-items-center">
+                                    <a href="#">Explore Now</a><span><i
+                                            class="fa-solid fa-arrow-right-long ms-2"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="explore-poster">
+                            <div class="poster-img">
+                                <a href="#"><img src="images/poster-3.png" alt="" class="w-100"></a>
+                            </div>
+                            <div class="poster-content pt-3 pb-3">
+
+                                <h2>Maldives Sightseeing Adventure Tours</h2>
+
+                                <div class="content-strip">
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item">
+                                            <span class="text-primary">
+                                                <i class="bi bi-people"></i>
+                                            </span>
+                                            <span>05 People</span>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <span class="text-primary">
+                                                <i class="bi bi-clock"></i>
+                                            </span>
+                                            <span>03 Days</span>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <span class="text-primary">
+                                                <i class="bi bi-coin"></i>
+                                            </span>
+                                            <span>From <span class="text-danger font-weight-bold">$250</span></span>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="link d-flex align-items-center">
+                                    <a href="#">Explore Now</a><span><i
+                                            class="fa-solid fa-arrow-right-long ms-2"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="explore-poster">
+                            <div class="poster-img">
+                                <a href="#"><img src="images/poster-4.png" alt="" class="w-100"></a>
+                            </div>
+                            <div class="poster-content pt-3 pb-3">
+
+                                <h2>Buenos Aires, Calafate, Abruzzo, Italy</h2>
+
+                                <div class="content-strip">
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item">
+                                            <span class="text-primary">
+                                                <i class="bi bi-people"></i>
+                                            </span>
+                                            <span>05 People</span>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <span class="text-primary">
+                                                <i class="bi bi-clock"></i>
+                                            </span>
+                                            <span>03 Days</span>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <span class="text-primary">
+                                                <i class="bi bi-coin"></i>
+                                            </span>
+                                            <span>From <span class="text-danger font-weight-bold">$250</span></span>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="link d-flex align-items-center">
+                                    <a href="#">Explore Now</a><span><i
+                                            class="fa-solid fa-arrow-right-long ms-2"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="explore-poster">
+                            <div class="poster-img">
+                                <a href="#"><img src="images/poster-1.png" alt="" class="w-100"></a>
+                            </div>
+                            <div class="poster-content pt-3 pb-3">
+
+                                <h2>Casablanca Valley Wine Tasting Day</h2>
+
+                                <div class="content-strip">
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item">
+                                            <span class="text-primary">
+                                                <i class="bi bi-people"></i>
+                                            </span>
+                                            <span>05 People</span>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <span class="text-primary">
+                                                <i class="bi bi-clock"></i>
+                                            </span>
+                                            <span>03 Days</span>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <span class="text-primary">
+                                                <i class="bi bi-coin"></i>
+                                            </span>
+                                            <span>From <span class="text-danger font-weight-bold">$250</span></span>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="link d-flex align-items-center">
+                                    <a href="#">Explore Now</a><span><i
+                                            class="fa-solid fa-arrow-right-long ms-2"></i></span>
+                                </div>
+                                 </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="explore-poster">
+                            <div class="poster-img">
+                                <a href="#"><img src="images/poster-5.png" alt="" class="w-100"></a>
+                            </div>
+                            <div class="poster-content pt-3 pb-3">
+
+                                <h2>Book now and get 20% off</h2>
+
+                                <div class="content-strip">
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item">
+                                            <span class="text-primary">
+                                                <i class="bi bi-people"></i>
+                                            </span>
+                                            <span>05 People</span>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <span class="text-primary">
+                                                <i class="bi bi-clock"></i>
+                                            </span>
+                                            <span>03 Days</span>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <span class="text-primary">
+                                                <i class="bi bi-coin"></i>
+                                            </span>
+                                            <span>From <span class="text-danger font-weight-bold">$250</span></span>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="link d-flex align-items-center">
+                                    <a href="#">Explore Now</a><span><i
+                                            class="fa-solid fa-arrow-right-long ms-2"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="video-banner ">
+        <div class="container-fluid p-0">
+            <div class="video-img">
+                <img src="images/video-banner.png" alt="" class="w-100">
+                <div class="video-content justify-content-center align-items-center mx-5">
+                    <h4>Views trip latest shots</h4>
+                    <p>Mlor sit amet, consectetur adipiscing elit. Arcu at viverra eget porttitor condimentum nisl pool.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="brand-slider pt-0">
+
+    </section>
+
+    <section class="about-us p-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="aboutus-img">
+                        <img src="images/about-us.png" alt="" class="w-100">
+                    </div>
+                </div>
+                <div class="col-lg-6 mt-5">
+                    <div class="aboutus-contant">
+                        <h3>About Us</h3>
+                        <h2>We are Professional Planners For your Vacations</h2>
+                        <div class="speak mt-5">
+                            <span class="gray ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. sed do eiusmod
+                                tem por
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</span><br>
+                            <span class="black">Speak to our Destination Experts at Direct Call +1 546 378 654</span>
+                        </div>
+                        <div class="aboutus-list pt-5">
+                            <ul p-0>
+                                <li class="d-flex p-0">
+                                    <i class="bi bi-check-circle me-2"></i>
+                                    <p>All placges and activiates are carefully picked by us.</p>
+                                </li>
+                                <li class="d-flex">
+                                    <i class="bi bi-check-circle me-2"></i>
+                                    <p>We are an award winning agency</p>
+                                </li>
+                                <li class="d-flex ">
+                                    <i class="bi bi-check-circle me-2"></i>
+                                    <p>Trusted by more than 80,000 customers</p>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="aboutus-contant-btn">
+                            <div class="booktrip-btn ml-4">
+                                <a href="#">Find Out More <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M7.42505 16.5999L12.8584 11.1666C13.5 10.5249 13.5 9.4749 12.8584 8.83324L7.42505 3.3999"
+                                            stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10"
+                                            stroke-linecap="round" stroke-linejoin="round"></path>
+                                    </svg></a>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="featured-packages pt-5">
+        <div class="container-fluid">
+            <div class="fratured-top-content">
+                <div class="travel-category-content">
+                    <h5>Featured Packages</h5>
+                    <h2>Browse Our Featured Packages</h2>
+                </div>
+            </div>
+
+            <div class="featured">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="featured-contant pt-5">
+                            <h3>Starting at $1,200</h3>
+                            <h2>Summer homecoming X MEXICO</h2>
+                            <div class="featured mt-5">
+                                <span class="black">Join us as we explore afro-latino culture and celebrate Colombia’s
+                                    Independence Weekend!</span><br>
+
+                                <span class="gray">Duis id interdum ex, eu accumsan massa. Fusce
+                                    vel nibh diam. Nulla ultrices ex at erat pharetra, vitae viverra mauris
+                                    condimentum. Sed ullamcorper dignissim enim, vel egestas lacus tincidunt
+                                    ac.</span>
+
+                            </div>
+                            <div class="aboutus-list pt-5">
+                                <ul p-0>
+                                    <li class="d-flex p-0">
+                                        <i class="bi bi-check-circle me-2"></i>
+                                        <p>All placges and activiates are carefully picked by us.</p>
+                                    </li>
+                                    <li class="d-flex">
+                                        <i class="bi bi-check-circle me-2"></i>
+                                        <p>We are an award winning agency</p>
+                                    </li>
+                                    <li class="d-flex ">
+                                        <i class="bi bi-check-circle me-2"></i>
+                                        <p>Trusted by more than 80,000 customers</p>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="aboutus-contant-btn">
+                                <div class="booktrip-btn ml-4">
+                                    <a href="#">Find Out More <svg width="20" height="20" viewBox="0 0 20 20"
+                                            fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M7.42505 16.5999L12.8584 11.1666C13.5 10.5249 13.5 9.4749 12.8584 8.83324L7.42505 3.3999"
+                                                stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10"
+                                                stroke-linecap="round" stroke-linejoin="round"></path>
+                                        </svg></a>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div class="col-lg-6 ">
+                        <div class="featured-img">
+                            <img src="images/featured-1.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 pl-5">
+                        <div class="featured-img-second-row pt-5">
+                            <img src="images/featured-2.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 pt-5">
+                        <div class="featured-contant-second-row">
+                            <h3>Starting at $1,200</h3>
+                            <h2>Summer homecoming X MEXICO</h2>
+                            <div class="featured mt-5">
+                                <span class="black">Join us as we explore afro-latino culture and celebrate Colombia’s
+                                    Independence Weekend!</span><br>
+
+                                <span class="gray">Duis id interdum ex, eu accumsan massa. Fusce
+                                    vel nibh diam. Nulla ultrices ex at erat pharetra, vitae viverra mauris
+                                    condimentum. Sed ullamcorper dignissim enim, vel egestas lacus tincidunt
+                                    ac.</span>
+
+                            </div>
+                            <div class="aboutus-list pt-5">
+                                <ul p-0>
+                                    <li class="d-flex p-0">
+                                        <i class="bi bi-check-circle me-2"></i>
+                                        <p>All placges and activiates are carefully picked by us.</p>
+                                    </li>
+                                    <li class="d-flex">
+                                        <i class="bi bi-check-circle me-2"></i>
+                                        <p>We are an award winning agency</p>
+                                    </li>
+                                    <li class="d-flex ">
+                                        <i class="bi bi-check-circle me-2"></i>
+                                        <p>Trusted by more than 80,000 customers</p>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="aboutus-contant-btn">
+                                <div class="booktrip-btn ml-4">
+                                    <a href="#">Find Out More <svg width="20" height="20" viewBox="0 0 20 20"
+                                            fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M7.42505 16.5999L12.8584 11.1666C13.5 10.5249 13.5 9.4749 12.8584 8.83324L7.42505 3.3999"
+                                                stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10"
+                                                stroke-linecap="round" stroke-linejoin="round"></path>
+                                        </svg></a>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+    </section>
+
+
+    <section class="testimonial pt-5 pb-5">
+        <div class="container-fluid">
+            <div class="testimonial-content">
+                <div class="travel-category-content">
+                    <h5>Testimonial</h5>
+                    <h2>What Our Travelers Say</h2>
+                </div>
+            </div>
+            <div class="slider">
+
+                <!-- Swiper -->
+
+
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide pl-5 pr-5">
+                            <div class="swipper-content ">
+                                <h2>
+                                    Nullam orci dui, dictum et magna sollicitudin, tempor blandit erat. Maecenas
+                                    suscipit
+                                    tellus sit amet augue placerat fringilla a id lacus. Fusce tincidunt in leo lacinia
+                                    condimentum. Donec placerat, orci.
+                                </h2>
+                                <h1 class="pt-3">
+                                    Johan Martin Sr
+                                </h1>
+                                <div
+                                    class="swipper-content-img swipper-content-img d-flex justify-content-center pt-3 pb-5">
+                                    <img src="images/swipper-2.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="swiper-slide pl-5 pr-5">
+                                <div class="swipper-content ">
+                                    <h2>
+                                        Nullam orci dui, dictum et magna sollicitudin, tempor blandit erat. Maecenas
+                                        suscipit
+                                        tellus sit amet augue placerat fringilla a id lacus. Fusce tincidunt in leo
+                                        lacinia
+                                        condimentum. Donec placerat, orci.
+                                    </h2>
+                                    <h1 class="pt-3">
+                                        Johan Martin Sr
+                                    </h1>
+                                    <div
+                                        class="swipper-content-img swipper-content-img d-flex justify-content-center pt-3 pb-5">
+                                        <img src="images/swipper-2.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="swiper-slide pl-5 pr-5">
+                                <div class="swipper-content ">
+                                    <h2>
+                                        Nullam orci dui, dictum et magna sollicitudin, tempor blandit erat. Maecenas
+                                        suscipit
+                                        tellus sit amet augue placerat fringilla a id lacus. Fusce tincidunt in leo
+                                        lacinia
+                                        condimentum. Donec placerat, orci.
+                                    </h2>
+                                    <h1 class="pt-3">
+                                        Johan Martin Sr
+                                    </h1>
+                                    <div
+                                        class="swipper-content-img swipper-content-img d-flex justify-content-center pt-3 pb-5">
+                                        <img src="images/swipper-2.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                    <!-- <div class="autoplay-progress">
+                        <svg viewBox="0 0 48 48">
+                            <circle cx="24" cy="24" r="20"></circle>
+                        </svg>
+                        <span></span>
+                    </div> -->
+                </div>
+
+
+
+            </div>
+        </div>
+    </section>
+
+
+    <section class="most-wanted-question pt-5">
+        <div class="container">
+            <div class="travel-category-content mt-5">
+                <h5>Most wanted Q & A</h5>
+                <h2>Frequently Asked Questions</h2>
+            </div>
+
+            <div class="container mt-5">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="accordion accordion-flush mt-4" id="accordionExample1">
+                            <div class="accordion-item mt-5">
+                                <h2 class="accordion-header" id="headingOne1">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseOne1" aria-expanded="false"
+                                        aria-controls="collapseOne1">
+                                        01.
+                                        What are the best locations for wedding tours?
+                                    </button>
+                                </h2>
+                                <div id="collapseOne1" class="accordion-collapse collapse" aria-labelledby="headingOne1"
+                                    data-bs-parent="#accordionExample1">
+                                    <div class="accordion-body">
+                                        <p>
+                                            Python is a high-level programming language known for its readability and
+                                            versatility.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item mt-5">
+                                <h2 class="accordion-header" id="headingTwo1">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseTwo1" aria-expanded="false"
+                                        aria-controls="collapseTwo1">
+                                        02.
+                                        Do you offer international packages?
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo1" class="accordion-collapse collapse" aria-labelledby="headingTwo1"
+                                    data-bs-parent="#accordionExample1">
+                                    <div class="accordion-body">
+
+                                        Some of the strangest places on earth are also the most sublime: from the
+                                        UFO-like
+                                        dragon's blood trees in Yemen to a rainbow-colored hot spring in Yellowstone to
+                                        a bridge
+                                        in Germany that looks like a leftover prop from Lord of the Rings.
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item mt-5">
+                                <h2 class="accordion-header" id="headingThree1">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseThree1" aria-expanded="false"
+                                        aria-controls="collapseThree1">
+                                        03.
+                                        Can we customize your package with you?
+                                    </button>
+                                </h2>
+                                <div id="collapseThree1" class="accordion-collapse collapse"
+                                    aria-labelledby="headingThree1" data-bs-parent="#accordionExample1">
+                                    <div class="accordion-body">
+
+                                        Some of the strangest places on earth are also the most sublime: from the
+                                        UFO-like
+                                        dragon's blood trees in Yemen to a rainbow-colored hot spring in Yellowstone to
+                                        a bridge
+                                        in Germany that looks like a leftover prop from Lord of the Rings.
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item mt-5">
+                                <h2 class="accordion-header" id="headingFour1">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseFour1" aria-expanded="false"
+                                        aria-controls="collapseFour1">
+                                        04.
+                                        Why would we book our package?
+                                    </button>
+                                </h2>
+                                <div id="collapseFour1" class="accordion-collapse collapse"
+                                    aria-labelledby="headingFour1" data-bs-parent="#accordionExample1">
+                                    <div class="accordion-body">
+
+                                        Some of the strangest places on earth are also the most sublime: from the
+                                        UFO-like
+                                        dragon's blood trees in Yemen to a rainbow-colored hot spring in Yellowstone to
+                                        a bridge
+                                        in Germany that looks like a leftover prop from Lord of the Rings.
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="accordion accordion-flush mt-4" id="accordionExample2">
+                            <div class="accordion-item mt-5">
+                                <h2 class="accordion-header" id="headingOne2">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseOne2" aria-expanded="false"
+                                        aria-controls="collapseOne2">
+                                        05.
+                                        What’s it like your job, grab a backpack?
+                                    </button>
+                                </h2>
+                                <div id="collapseOne2" class="accordion-collapse collapse" aria-labelledby="headingOne2"
+                                    data-bs-parent="#accordionExample2">
+                                    <div class="accordion-body">
+                                        <p>
+
+                                            Some of the strangest places on earth are also the most sublime: from the
+                                            UFO-like
+                                            dragon's blood trees in Yemen to a rainbow-colored hot spring in Yellowstone
+                                            to a bridge
+                                            in Germany that looks like a leftover prop from Lord of the Rings.
+
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item mt-5">
+                                <h2 class="accordion-header" id="headingTwo2">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseTwo2" aria-expanded="false"
+                                        aria-controls="collapseTwo2">
+                                        06.
+                                        Do you offer international packages?
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo2" class="accordion-collapse collapse" aria-labelledby="headingTwo2"
+                                    data-bs-parent="#accordionExample2">
+                                    <div class="accordion-body">
+                                        <p>
+
+                                            Some of the strangest places on earth are also the most sublime: from the
+                                            UFO-like
+                                            dragon's blood trees in Yemen to a rainbow-colored hot spring in Yellowstone
+                                            to a bridge
+                                            in Germany that looks like a leftover prop from Lord of the Rings.
+
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item mt-5">
+                                <h2 class="accordion-header" id="headingThree2">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseThree2" aria-expanded="false"
+                                        aria-controls="collapseThree2">
+                                        07.
+                                        What are the best locations for wedding tours?
+                                    </button>
+                                </h2>
+                                <div id="collapseThree2" class="accordion-collapse collapse"
+                                    aria-labelledby="headingThree2" data-bs-parent="#accordionExample2">
+                                    <div class="accordion-body">
+                                        <p>
+
+                                            Some of the strangest places on earth are also the most sublime: from the
+                                            UFO-like
+                                            dragon's blood trees in Yemen to a rainbow-colored hot spring in Yellowstone
+                                            to a bridge
+                                            in Germany that looks like a leftover prop from Lord of the Rings.
+
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="Blog-News">
+
+        <div class="container">
+            <div class="travel-category-content mt-5">
+                <h5>Blog and News</h5>
+                <h2>Stay Update with Travel Tips!</h2>
+            </div>
+
+            <div class="blognews-poster">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="explore-poster">
+                            <div class="poster-img">
+                                <a href="#"><img src="images/blogs-1.png" alt="" class="w-100"></a>
+                            </div>
+                            <div class="poster-content pt-3 pb-3">
+
+                                <div class="content-strip">
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item">
+                                            <span class="text-primary">
+                                                <i class="bi bi-calendar-date text-dark"></i>
+                                            </span>
+                                            <span>24 Sep 2022 · 6:30 PM |</span>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <span class="text-primary">
+                                                <i></i>
+                                            </span>
+                                            <span>250 View</span>
+                                        </li>
+
+                                    </ul>
+                                </div>
+
+                                <h2>Indulge in purest forms of body care with.</h2>
+
+
+
+                                <div class="link d-flex align-items-center">
+                                    <a href="#">Read More<span>
+                                            <i class="fa-solid fa-arrow-right-long ms-2"></i></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="explore-poster">
+                            <div class="poster-img">
+                                <a href="#"><img src="images/blogs-2.png" alt="" class="w-100"></a>
+                            </div>
+                            <div class="poster-content pt-3 pb-3">
+
+                                <div class="content-strip">
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item">
+                                            <span class="text-primary">
+                                                <i class="bi bi-calendar-date text-dark"></i>
+                                            </span>
+                                            <span>24 Sep 2022 · 6:30 PM |</span>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <span class="text-primary">
+                                                <i></i>
+                                            </span>
+                                            <span>250 View</span>
+                                        </li>
+
+                                    </ul>
+                                </div>
+
+                                <h2>Best Places to Visit in Dalhousie, Himachal.</h2>
+
+
+
+                                <div class="link d-flex align-items-center">
+                                    <a href="#">Read More<span>
+                                            <i class="fa-solid fa-arrow-right-long ms-2"></i></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="explore-poster">
+                            <div class="poster-img">
+                                <a href="#"><img src="images/blogs-3.png" alt="" class="w-100"></a>
+                            </div>
+                            <div class="poster-content pt-3 pb-3">
+
+                                <div class="content-strip">
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item">
+                                            <span class="text-primary">
+                                                <i class="bi bi-calendar-date text-dark"></i>
+                                            </span>
+                                            <span>24 Sep 2022 · 6:30 PM |</span>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <span class="text-primary">
+                                                <i></i>
+                                            </span>
+                                            <span>250 View</span>
+                                        </li>
+
+                                    </ul>
+                                </div>
+
+                                <h2>Benefit from a 15% discount mak your reservations.</h2>
+
+
+
+                                <div class="link d-flex align-items-center">
+                                    <a href="#">Read More<span>
+                                            <i class="fa-solid fa-arrow-right-long ms-2"></i></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="intagram-poster ">
+        <div class="container-fluid pt-5 mb-5">
+            <div class="instamain-div">
+                <div class="insta-poster">
+                    <div class="insta-img">
+                        <img src="images/insta-1.png" alt="">
+                    </div>
+                    <div class="insta-logo">
+                        <a href="#"><i class="bi bi-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="insta-poster">
+                    <div class="insta-img">
+                        <img src="images/insta-2.png" alt="">
+                    </div>
+                    <div class="insta-logo">
+                        <a href="#"><i class="bi bi-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="insta-poster">
+                    <div class="insta-img">
+                        <img src="images/insta-3.png" alt="">
+                    </div>
+                    <div class="insta-logo">
+                        <a href="#"><i class="bi bi-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="insta-poster">
+                    <div class="insta-img">
+                        <img src="images/insta-4.png" alt="">
+                    </div>
+                    <div class="insta-logo">
+                        <a href="#"><i class="bi bi-instagram"></i></a>
+                    </div>
+                </div>
+                <!-- <div class="insta-poster">
+                    <div class="insta-img">
+                        <img src="images/insta-5.png" alt="">
+                    </div>
+                    <div class="insta-logo">
+                        <a href="#"><i class="bi bi-instagram"></i></a>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="main-footer">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="footer-logo pt-5">
+                            <img src="images/footer-logo-white.png" alt="">
+                        </div>
+                        <div class="footer-form">
+                            <h4 class="pt-5">Newsletter</h4>
+
+                            <div class="placeholder-icon">
+                                <input type="text" placeholder="Email address ">
+                                <i class="bi bi-envelope    "></i>
+                            </div>
+
+                            <button class="subscribe">Subscribe</button>
+                            <button class="we-are-hiring">We Are Hiring!</button>
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <div class="row">
+                            <div class="col-lgg-12 pt-5">
+                                <div class="social-media d-flex justify-content-start  ">
+                                    <div class="whatsapp d-flex">
+                                        <i class="bi bi-whatsapp"></i>
+                                        <h4>whatsapp</h4>
+                                    </div>
+                                    <div class="whatsapp d-flex">
+                                        <i class="bi bi-twitter"></i>
+                                        <h4>twitter</h4>
+                                    </div>
+                                    <div class="whatsapp d-flex">
+                                        <i class="bi bi-pinterest"></i>
+                                        <h4>Pinterest</h4>
+                                    </div>
+                                    <div class="whatsapp d-flex">
+                                        <i class="bi bi-instagram"></i>
+                                        <h4>instagram</h4>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-lg-12 pt-5">
+                                <div class="detail-section d-flex align-items-center">
+                                    <div class="navigation me-4">
+                                        <div class="detail-heading">
+                                            <h4>Navigation</h4>
+                                        </div>
+                                        <div class="detail-list">
+                                            <ul class="list-unstyled">
+                                                <li><a href="#">About Company</a></li>
+                                                <li><a href="#">Online Query</a></li>
+                                                <li><a href="#">Become Partner</a></li>
+                                                <li><a href="#">Help & Support</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="destination me-4">
+                                        <div class="detail-heading">
+                                            <h4>Destinations</h4>
+                                        </div>
+                                        <div class="detail-list">
+                                            <ul class="list-unstyled">
+                                                <li><a href="#">About Company</a></li>
+                                                <li><a href="#">Online Query</a></li>
+                                                <li><a href="#">Become Partner</a></li>
+                                                <li><a href="#">Help & Support</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="contact-us">
+                                        <div class="detail-heading">
+                                            <h4>Contact Us</h4>
+                                        </div>
+                                        <div class="detail-list">
+                                            <ul class="list-unstyled">
+                                                <li class="d-flex align-items-center mb-2">
+                                                    <i class="bi bi-geo-alt-fill me-2"></i>
+                                                    <p class="mb-0">3891 Ranchview Dr. Richardson, California 62639</p>
+                                                </li>
+                                                <li class="d-flex align-items-center mb-2">
+                                                    <i class="bi bi-telephone-fill me-2"></i>
+                                                    <p class="mb-0">Phone: +88 0123 6985</p>
+                                                </li>
+                                                <li class="d-flex align-items-center">
+                                                    <i class="bi bi-envelope-fill me-2"></i>
+                                                    <p class="mb-0">Email: example@gmail.com</p>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+ 
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js">
+    </script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+     
+   <script>
+
+        const progressCircle = document.querySelector(".autoplay-progress svg");
+        const progressContent = document.querySelector(".autoplay-progress span");
+        var swiper = new Swiper(".mySwiper", {
+            spaceBetween: 30,
+            centeredSlides: true,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev"
+            },
+            on: {
+                autoplayTimeLeft(s, time, progress) {
+                    progressCircle.style.setProperty("--progress", 1 - progress);
+                    progressContent.textContent = `${Math.ceil(time / 1000)}s`;
+                }
+            }
+        });
+
+
+
+
+    </script>
+
+
+
+
+
+</body>
+</html>
